@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="CyberSuccess1.LambdaTest_Automation.RegistrationTestCase">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="registrationTest"/>
+          <include name="withoutemailid"/>
+          <include name="withoutpassword"/>
+          <include name="afterMethod"/>
+          <include name="withoutPhone"/>
+          <include name="withoutfullname"/>
+        </methods>
+      </class> <!-- CyberSuccess1.LambdaTest_Automation.RegistrationTestCase -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
